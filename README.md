@@ -32,4 +32,6 @@
 
 - [16-数组去重](https://github.com/lzxjack/code-js/blob/master/code-js/16-%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D.js)
 
+- [17-判断数据类型](https://github.com/lzxjack/code-js/blob/master/code-js/17-判断数据类型.js)
+
    
