@@ -1,8 +1,8 @@
 // func是用户传入需要防抖的函数
 // wait是等待时间，若不传参，默认50ms
-// 因为闭包，falg将一直在内存中
+// 因为闭包，flag将一直在内存中
 const throttle = (func, wait = 50) => {
-    // 定义falg，初试为true
+    // 定义flag，初始为true
     let flag = true;
     // 返回的函数是每次用户实际调用的节流函数
     return (...args) => {
