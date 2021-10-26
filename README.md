@@ -36,4 +36,6 @@
 
 - [18-驼峰命名转短横线](https://github.com/lzxjack/code-js/blob/master/code-js/18-驼峰命名转短横线.js)
 
+- [19-数组扁平化](https://github.com/lzxjack/code-js/blob/master/code-js/19-数组扁平化.js)
+
   
