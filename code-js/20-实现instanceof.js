@@ -5,7 +5,7 @@ const usr = new Person();
 
 function myInstanceof(obj, constructor) {
     // obj的隐式原型
-    let implicitPrototype = obj.__proto__;
+    let implicitPrototype = obj?.__proto__;
     // 构造函数的原型
     const displayPrototype = constructor.prototype;
     // 遍历原型链
@@ -23,3 +23,6 @@ console.log(myInstanceof(usr, Object)); // true
 
 console.log(myInstanceof(usr, Person2)); // false
 console.log(myInstanceof(usr, Function)); // false
+
+console.log(myInstanceof(null, Object)); // false
+console.log(myInstanceof(undefined, Object)); // false
