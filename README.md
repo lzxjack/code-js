@@ -38,4 +38,6 @@
 
 - [19-数组扁平化](https://github.com/lzxjack/code-js/blob/master/code-js/19-数组扁平化.js)
 
+- [20-实现instanceof](https://github.com/lzxjack/code-js/blob/master/code-js/20-实现instanceof.js)
+
   
