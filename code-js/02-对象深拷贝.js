@@ -5,11 +5,7 @@ const deepCopy = oldObj => {
     }
 
     // 结果对象
-    let newObj = {};
-    // 如果是数组，则定义结果数组
-    if (oldObj.constructor === Array) {
-        newObj = [];
-    }
+    const newObj = Array.isArray(oldObj) ? [] : {};
 
     // 遍历对象的key
     for (const key in oldObj) {

@@ -4,7 +4,7 @@ function person(a, b, c) {
 }
 
 const usr = {
-    name: 'jack',
+    name: 'Jack',
 };
 
 // 实现apply
@@ -14,12 +14,7 @@ Function.prototype.myApply = function (obj, arr) {
     // 将函数设置为对象的属性
     newObj.fn = this;
     // 执行这个函数，并拿到返回值
-    let res;
-    if (arr) {
-        res = newObj.fn(...arr);
-    } else {
-        res = newObj.fn();
-    }
+    const res = arr ? newObj.fn(...arr) : newObj.fn();
     // 删除这个函数属性
     delete newObj.fn;
     // 返回值
@@ -27,9 +22,9 @@ Function.prototype.myApply = function (obj, arr) {
 };
 
 console.log(person.myApply(usr, [1, 2, 3]));
-// jack
+// Jack
 // 6
 
 console.log(person.myApply(usr));
-// jack
+// Jack
 // NaN
