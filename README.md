@@ -28,6 +28,7 @@
 |  24  | [函数柯里化](https://github.com/lzxjack/code-js/blob/master/code-js/24-%E5%87%BD%E6%95%B0%E6%9F%AF%E9%87%8C%E5%8C%96.js) |
 |  25  | [虚拟`DOM`转真实`DOM`](https://github.com/lzxjack/code-js/blob/master/code-js/25-%E8%99%9A%E6%8B%9FDOM%E8%BD%AC%E7%9C%9F%E5%AE%9EDOM.js) |
 |  26  | [简易`Ajax`](https://github.com/lzxjack/code-js/blob/master/code-js/26-%E7%AE%80%E6%98%93Ajax.js) |
+|  27  | [异步任务调度器](https://github.com/lzxjack/code-js/blob/master/code-js/27-异步任务调度器.js) |
 
 
 
